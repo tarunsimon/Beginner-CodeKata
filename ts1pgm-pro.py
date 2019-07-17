@@ -1,5 +1,5 @@
 import os
-b = "Vishal"
-c = "Vishod"
+b = (input())
+c = (input())
 a = os.path.commonprefix([b,c])
 print(a)
